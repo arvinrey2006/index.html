@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payroll Management System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: grey;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+            padding: 20px 50px;
+            color: white;
+            height: 142px;
+            margin-bottom: 90px;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+
+          }
+
+        .title{
+            text-align: center;
+        }
+
+        
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #00bcd4;
+        }
+
+        .logo img{
+            width: 190px;
+
+        }
+      
+.slideshow-container {
+
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+    .prl p{
+        width: 1000px;
+        text-align: justify;
+        float: right;
+        margin-right: 450px;
+        font-size: 20px;
+    }
+
+
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }   
+    .gallery1 {
+        background: white;
+        margin: 5px;
+        border: 1px solid #ccc;
+        width: 180px;
+        float: right;
+        margin-top: 300px;
+        margin-right: -180px;
+    }
+    .gallery2{
+        background: white;
+        margin: 5px;
+        border: 1px solid #ccc;
+        width: 180px;
+        float: right;
+        margin-top: 300px;
+        margin-right: -460px;
+
+    }
+    .gallery3 {
+        background: white;
+        margin: 5px;
+        border: 1px solid #ccc;
+        width: 180px;
+        float: right;
+        margin-top: 300px;
+        margin-right: -730px;
+    }
+    .gallery4 {
+        background: white;
+        margin: 5px;
+        border: 1px solid #ccc;
+        width: 180px;
+        float: right;
+        margin-top: 300px;
+        margin-right: -1000px;
+    }
+
+    .site{
+        margin-top: 600px;
+        padding-left: 50px;
+    }
+
+    .foot{
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+    .foot a{
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        gap: 20px;
+        font-size: 20px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Payroll logo.png">
+        </div>
+            <div class="title">
+            <h1> Payroll Management System</h1>
+            <p> Delightfull payroll From here you can manage every aspect of your payroll </p>
+            </div>          
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="login.html">Log in</a></li>
+            </ul>
+    </body>
+        </nav>
+    </header>
+
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="system.png" style="width:100%">
+            <div class="text">Lorem Ipsum</div>
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="Payroll.png" style="width:100%">
+            <div class="text">Lorem Ipsum</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="employee.png" style="width:100%">
+            <div class="text">Lorem Ipsum</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+
+    <script>
+            let slideIndex = 1;
+                showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+            let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}    
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+            }
+</script>
+        <div class="prl">
+            <h1 text align="center">What is Payroll </h1>
+        
+            <p>Payroll is compensation a business must pay to its employees for a set period or on a given date. It's usually managed by the accounting or human resources department of a company but small business payrolls might be handled directly by the owner or an associate. Payroll is increasingly outsourced to specialized firms that handle paycheck processing, employee benefits, insurance, and accounting tasks such as tax withholding.
+
+            Many payroll fintech firms including Atomic, Bitwage, Finch, Pinwheel, and Wagestream are leveraging technology to simplify payroll processes. These solutions pay employees with greater convenience and speed and provide digital payroll-related documents with innovative technology-enabled services that are required by the gig and outsourcing economy.
+
+            Payroll can also refer to the list of a company's employees and the amount of compensation due to each of them. It's a major expense for most businesses and is almost always deductible. The expense can be subtracted from gross income to reduce the company's taxable income.</p>
+        </div>
+
+        <div class="gallery1">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="1.webp"  width="180" height="100">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery2">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="2.jfif"  width="180" height="100">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery3">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="3.jpg"  width="180" height="100">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery4">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="4.png"  width="180" height="100">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+    <div class="site">
+       <iframe width="900" height="600" src="https://www.youtube.com/embed/aQzNYNC89io?si=ojbSlTlVAtr9FHHa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.1110040189324!2d124.64937277591692!3d8.488586991552769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fff2e7ff6d2ec9%3A0x180566d5585d5301!2sCapitol%20University!5e0!3m2!1sen!2sph!4v1732796823931!5m2!1sen!2sph" width="900" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  
+    <footer class="foot">
+        <h1>Sites</h1>
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+        <a href="https://x.com/?lang=en" class="fa fa-twitter"></a>
+    </footer>
+            
+            
+            
+</body>
+</html>
